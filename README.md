@@ -7,7 +7,7 @@ This project involves a comprehensive analysis of IMDB dataset using SQL. The go
 
 ## Content
 
-Dataset <a href="https://github.com/kiranhd/IMDB_sql_project/blob/main/imdb_top_1000.csv">click here</a>
+Dataset-<a href="https://github.com/kiranhd/IMDB_sql_project/blob/main/imdb_top_1000.csv">click here</a>
 
 - Poster_Link   - Link of the poster that imdb using
 - Series_Title  - Name of the movie
