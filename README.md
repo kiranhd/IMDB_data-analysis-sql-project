@@ -7,7 +7,7 @@ This project involves a comprehensive analysis of IMDB dataset using SQL. The go
 
 ## Content
 
-<a href="https://github.com/kiranhd/IMDB_sql_project/blob/main/imdb_top_1000.csv">Dataset</a>
+Dataset <a href="https://github.com/kiranhd/IMDB_sql_project/blob/main/imdb_top_1000.csv">click here</a>
 
 - Poster_Link   - Link of the poster that imdb using
 - Series_Title  - Name of the movie
@@ -58,7 +58,7 @@ CREATE TABLE IF NOT EXISTS imdb_top_movies
 );
 ```
 
-## Solving The 20 Business Problems Using IMDB Dataset:
+## Solving the 20 Business Problems using IMDB dataset:
 
 ### 1) Fetch all data from imdb table 
 
