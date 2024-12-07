@@ -7,7 +7,7 @@ This project involves a comprehensive analysis of IMDB dataset using SQL. The go
 
 ## Content
 
-<a href=" ">Dataset</a>
+<a href="https://github.com/kiranhd/IMDB_sql_project/blob/main/imdb_top_1000.csv">Dataset</a>
 
 - Poster_Link   - Link of the poster that imdb using
 - Series_Title  - Name of the movie
@@ -19,8 +19,7 @@ This project involves a comprehensive analysis of IMDB dataset using SQL. The go
 - Overview      - mini story/ summary
 - Meta_score    - Score earned by the movie
 - Director      - Name of the Director
-- Star1,Star2,  - Name of the Stars
- Star3,Star4 
+- Star1,Star2,Star3,Star4   - Name of the Stars
 - No_of_votes   - Total number of votes
 - Gross         - Money earned by that movie
 
