@@ -9,20 +9,20 @@ This project involves a comprehensive analysis of IMDB dataset using SQL. The go
 
 <a href=" ">Dataset</a>
 
-Poster_Link   - Link of the poster that imdb using
-Series_Title  - Name of the movie
-Released_Year - Year at which that movie released
-Certificate   - Certificate earned by that movie
-Runtime       - Total runtime of the movie
-Genre         - Genre of the movie
-IMDB_Rating   - Rating of the movie at IMDB site
-Overview      - mini story/ summary
-Meta_score    - Score earned by the movie
-Director      - Name of the Director
-Star1,Star2,  - Name of the Stars
-Star3,Star4 
-No_of_votes   - Total number of votes
-Gross         - Money earned by that movie
+- Poster_Link   - Link of the poster that imdb using
+- Series_Title  - Name of the movie
+- Released_Year - Year at which that movie released
+- Certificate   - Certificate earned by that movie
+- Runtime       - Total runtime of the movie
+- Genre         - Genre of the movie
+- IMDB_Rating   - Rating of the movie at IMDB site
+- Overview      - mini story/ summary
+- Meta_score    - Score earned by the movie
+- Director      - Name of the Director
+- Star1,Star2,  - Name of the Stars
+ Star3,Star4 
+- No_of_votes   - Total number of votes
+- Gross         - Money earned by that movie
 
 ## Objectives
 
@@ -40,22 +40,22 @@ Gross         - Money earned by that movie
 DROP TABLE IF EXISTS imdb_top_movies;
 CREATE TABLE IF NOT EXISTS imdb_top_movies
 (
-	Poster_Link		     varchar(4000),
+	Poster_Link	     varchar(4000),
 	Series_Title	     varchar(1000),
 	Released_Year	     varchar(10),
-	Certificate		     varchar(10),
-	Runtime			       varchar(20),
-	Genre			         varchar(50),
-	IMDB_Rating		     decimal,
-	Overview		       varchar(4000),
-	Meta_score		     int,
-	Director		       varchar(200),
-	Star1			         varchar(200),
-	Star2			         varchar(200),
-	Star3			         varchar(200),
-	Star4			         varchar(200),
-	No_of_Votes		     bigint,
-	Gross			         money
+	Certificate	     varchar(10),
+	Runtime		     varchar(20),
+	Genre		     varchar(50),
+	IMDB_Rating	     decimal,
+	Overview	     varchar(4000),
+	Meta_score	     int,
+	Director	     varchar(200),
+	Star1		     varchar(200),
+	Star2		     varchar(200),
+	Star3		     varchar(200),
+	Star4		     varchar(200),
+	No_of_Votes	     bigint,
+	Gross		     money
 );
 ```
 
